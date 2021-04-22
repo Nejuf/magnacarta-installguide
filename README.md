@@ -1,0 +1,1 @@
+# magnacarta-installguide
