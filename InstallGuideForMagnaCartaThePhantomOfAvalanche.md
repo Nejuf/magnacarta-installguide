@@ -3,7 +3,7 @@
 
 Developed by Korean studio Softmax, the very first Magna Carta game, Magna Carta: The Phantom of Avalanche, was released exclusively for PC in South Korea.
 
-A fan translation was created for English by [Sobodash](https://github.com/Nejuf/magnacarta).
+A fan translation was created for English by [Talbain and Sobodash](https://github.com/Nejuf/magnacarta).
 
 This guide explains how to install the Magna Carta: The Phantom of Avalanche with the English translations.
 
