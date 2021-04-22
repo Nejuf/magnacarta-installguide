@@ -3,11 +3,12 @@
 
 Developed by Korean studio Softmax, the very first Magna Carta game, Magna Carta: The Phantom of Avalanche, was released exclusively for PC in South Korea.
 
-A fan translation was created for English by Sobodash.
+A fan translation was created for English by [Sobodash](https://github.com/Nejuf/magnacarta).
 
 This guide explains how to install the Magna Carta: The Phantom of Avalanche with the English translations.
 
-Want to check out the archive of the game's original site?: [web.archive.org](https://web.archive.org/web/20060702084649/http://pc.magnacarta.co.kr/en/main.php) 
+Want to check out the game's original site?  There's an archived version here: [web.archive.org](https://web.archive.org/web/20060702084649/http://pc.magnacarta.co.kr/en/main.php) 
+
 
 ## Game Download ##
 
@@ -58,9 +59,11 @@ Recommended Requirements
 - HDD : 3G or above
 - CD-ROM : 8X or above
 
+
 ### Steps ###
 
 It is recommended that you keep a phone handy with Google Translate installed so that you can use its camera translation feature to translate the Korean Windows install messages.
+
 
 #### Change Region/Locale ####
 
@@ -165,13 +168,22 @@ After choosing "Setup" it will pause for a moment and then will start applying t
 
 ## English Translation Download ##
 
-Translation download: TODO
+The translation files installed by the patch utility may be outdated.  There's two types of language files: BGR (images) and FPB (text).
 
+You can download the latest here:
+
+- [English BGR](https://github.com/Nejuf/magnacarta/tree/master/bgr/en)
+- [English FPB](https://github.com/Nejuf/magnacarta/tree/master/fpb/en)
 
 
 ## English Translation Install ##
 
-TODO
+Installation of the downloaded translation files is easy: just copy them into the appropriate game installation folders.
+
+If you used the default installation options, then most likely your install folders will be:
+
+- C:\Program Files (x86)\SOFTMAX\MagnaCarta\BGR
+- C:\Program Files (x86)\SOFTMAX\MagnaCarta\Fpb
 
 
 ## Playing the Game ##
@@ -179,6 +191,7 @@ TODO
 To start playing the game, all you have to do is **mount Play CD (MC_PLAY)** (the other disks do not need to be mounted), and go to your Windows installed programs and choose the below option.  The game should launch into fullscreen and start playing.
 
 ![Start Game](guide_assets/install/play_start_game.png)
+
 
 ## Advanced Settings ##
 
