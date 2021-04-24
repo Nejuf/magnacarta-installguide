@@ -154,6 +154,8 @@ If you get a read-only file warning, choose yes to proceed.
 
 You're almost there!  All that's left is to install the game patch and translation files.
 
+**Important:** Prior to running the patch, make a backup of the "Drv" folder inside the game installation files (i.e. C:\Program Files (x86)\SOFTMAX\MagnaCarta\Drv).  Some users have reported missing graphics/textures if your computer is using the Direct 3D driver, and restoring this backup after applying the patch can fix it.
+
 In the "Patch" folder run the "MCV104a.exe" file.
 
 ![Patch 1](guide_assets/install/patch_run_1.png)
