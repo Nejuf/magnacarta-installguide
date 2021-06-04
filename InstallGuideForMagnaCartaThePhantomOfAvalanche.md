@@ -3,7 +3,7 @@
 
 Developed by Korean studio Softmax, the very first Magna Carta game, Magna Carta: The Phantom of Avalanche, was released exclusively for PC in South Korea.
 
-A fan translation was created for English by [Talbain and Sobodash](https://github.com/Nejuf/magnacarta).
+A fan translation was created for English by [Talbain(Lakuuna), Sobodash, and Nejuf](https://github.com/Nejuf/magnacarta).
 
 This guide explains how to install the Magna Carta: The Phantom of Avalanche with the English translations.
 
@@ -170,12 +170,13 @@ After choosing "Setup" it will pause for a moment and then will start applying t
 
 ## English Translation Download ##
 
-The translation files installed by the patch utility may be outdated.  There's two types of language files: BGR (images) and FPB (text).
+The translation files installed by the patch utility may be outdated.  There's several types of language files: BGR (images), FPB (dialogue text), and ITM (item text).
 
 You can download the latest here:
 
 - [English BGR](https://github.com/Nejuf/magnacarta/tree/master/bgr/en)
 - [English FPB](https://github.com/Nejuf/magnacarta/tree/master/fpb/en)
+- [English ITM](https://github.com/Nejuf/magnacarta/tree/master/itm/en)
 
 
 ## English Translation Install ##
@@ -186,6 +187,7 @@ If you used the default installation options, then most likely your install fold
 
 - C:\Program Files (x86)\SOFTMAX\MagnaCarta\BGR
 - C:\Program Files (x86)\SOFTMAX\MagnaCarta\Fpb
+- C:\Program Files (x86)\SOFTMAX\MagnaCarta\Itm
 
 
 ## Playing the Game ##
