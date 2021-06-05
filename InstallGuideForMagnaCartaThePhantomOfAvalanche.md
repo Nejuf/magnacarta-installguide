@@ -170,13 +170,15 @@ After choosing "Setup" it will pause for a moment and then will start applying t
 
 ## English Translation Download ##
 
-The translation files installed by the patch utility may be outdated.  There's several types of language files: BGR (images), FPB (dialogue text), and ITM (item text).
+The translation files installed by the patch utility may be outdated.  There's several types of language files: BGR (images), FPB (dialogue text), ITM (item/equipment text), SGI (weapon text), and ABI (skills text).
 
 You can download the latest here:
 
 - [English BGR](https://github.com/Nejuf/magnacarta/tree/master/bgr/en)
 - [English FPB](https://github.com/Nejuf/magnacarta/tree/master/fpb/en)
 - [English ITM](https://github.com/Nejuf/magnacarta/tree/master/itm/en)
+- [English SGI](https://github.com/Nejuf/magnacarta/tree/master/sgi/en)
+- [English ABI](https://github.com/Nejuf/magnacarta/tree/master/abi/en)
 
 
 ## English Translation Install ##
@@ -188,6 +190,8 @@ If you used the default installation options, then most likely your install fold
 - C:\Program Files (x86)\SOFTMAX\MagnaCarta\BGR
 - C:\Program Files (x86)\SOFTMAX\MagnaCarta\Fpb
 - C:\Program Files (x86)\SOFTMAX\MagnaCarta\Itm
+- C:\Program Files (x86)\SOFTMAX\MagnaCarta\Sgi
+- C:\Program Files (x86)\SOFTMAX\MagnaCarta\Abi
 
 
 ## Playing the Game ##
