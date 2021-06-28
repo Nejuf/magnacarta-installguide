@@ -111,13 +111,13 @@ The installer will launch in fullscreen.
 
 ![Installer 2](guide_assets/install/install_installer_2.png)
 
-For the first code prompt, open the MAGNA_CARTA_SERIAL.txt file and enter the first code.
+For the first code prompt, open the "CRACK/CD KEY/MAGNA_CARTA_SERIAL.txt" file and enter the first code.
 
 ![Installer Serial Codes](guide_assets/install/install_installer_serial_codes.png)
 
 ![Installer 3](guide_assets/install/install_installer_3.png)
 
-In the second code prompt, enter the second code from the CRACK/CD Key/MAGNA_CARTA_SERIAL.txt file.
+In the second code prompt, enter the second code from the "CRACK/CD Key/MAGNA_CARTA_SERIAL.txt" file. Use ALL CAPS.
 
 ![Installer 4](guide_assets/install/install_installer_4.png)
 
@@ -154,7 +154,8 @@ If you get a read-only file warning, choose yes to proceed.
 
 You're almost there!  All that's left is to install the game patch and translation files.
 
-**Important:** Prior to running the patch, make a backup of the "Drv" folder inside the game installation files (i.e. C:\Program Files (x86)\SOFTMAX\MagnaCarta\Drv).  Some users have reported missing graphics/textures if your computer is using the Direct 3D driver, and restoring this backup after applying the patch can fix it.
+**Important:** Prior to running the patch, make a backup of the "Drv" folder inside the game installation files (i.e. C:\Program Files (x86)\SOFTMAX\MagnaCarta\Drv).  Some users on newer PCs have reported missing graphics/textures if your computer is using the Direct 3D driver, and restoring this backup after applying the patch can fix it.
+If you forget to backup the Drv files, you can reinstall the game or download them from here: [https://github.com/Nejuf/magnacarta/tree/master/Drv_unpatched](https://github.com/Nejuf/magnacarta/tree/master/Drv_unpatched)
 
 In the "Patch" folder run the "MCV104a.exe" file.
 
@@ -179,6 +180,8 @@ You can download the latest here:
 - [English ITM](https://github.com/Nejuf/magnacarta/tree/master/itm/en)
 - [English SGI](https://github.com/Nejuf/magnacarta/tree/master/sgi/en)
 - [English ABI](https://github.com/Nejuf/magnacarta/tree/master/abi/en)
+
+To download all of the translation files at once, you can use the "git clone" option or download as a [ZIP file](https://github.com/Nejuf/magnacarta/archive/refs/heads/master.zip).
 
 
 ## English Translation Install ##
@@ -222,4 +225,68 @@ If you encounter graphical or other issues with the game, you might want to try 
 ![Install Settings Character Detail](guide_assets/install/install_settings_character_detail.png)
 
 ![Install Settings Speaker](guide_assets/install/install_settings_speaker.png)
+
+
+## Troubleshooting ##
+
+It's not unlikely that you will encounter some issue trying to install or play this game.  The game itself has enough bugs that it was recalled by its developer (SOFTMAX).  Combining the game bugs with the fact that it's been hacked for localization, and also that most of us are playing it on much newer hardware and OS, means there's a lot of opportunity for something to go wrong.  The game story is actually very good, so I hope you're willing to put up with the bugs and some grinding.
+
+Known issues/errors will be captured below.  In general, here's some tips to avoid game bugs:
+
+1. Don't wedge yourself into tight spaces where you might clip and get stuck
+2. Don't cause the game to load things too quickly (like rapidly going back and forth between zones)
+3. Try not to deviate from the game developer's intent (most QA testing is focused on actions/paths they anticipate the players will take)
+
+
+### Game Saves ###
+
+If you ever find yourself needing to reinstall the game or switching to another computer, then be sure to backup your games saves; it's very easy.
+
+Just copy the "MC0#.sav" files from the game installation directory (C:\Program Files (x86)\SOFTMAX\MagnaCarta), and copy them back as needed.
+
+### Error - Cannot Match Pixel Format ###
+
+If you see the below error ("Cannot Match PixelFormat") when you try to launch the application:
+
+![Install Error Cannot Match PixelFormat](guide_assets/install/install_cannotMatchPixelFormat_error.png)
+
+Then the fix is to set the "Display Driver" to "Direct 3D" using the MC Setup (see [Advanced Settings](#advanced-settings) above) **AND** to set the Windows program compatibility mode for the executable ("C:\Program Files (x86)\SOFTMAX\MagnaCarta\MagnaCarta.exe") to "Windows XP (Service Pack 3)" like in the screenshot below.
+
+![Install Windows XP Service Pack 3 Compatibility Mode](guide_assets/install/install_settings_windows_service_pack_3.png)
+
+
+### Error - Change Display Strings ###
+
+If you see the below error ("ChangeDisplayStrrings") when you try to launch the application:
+
+![Install Error Change Display Strings](guide_assets/install/install_changedisplaystrings_error.png)
+
+Then the fix is to set the "Display Driver" to "Direct 3D" using the MC Setup (see [Advanced Settings](#advanced-settings) above).
+
+
+### Loading Glitch - Game Crashes or Errors When Starting/Loading the Game ###
+
+If the game crashes or you see the below error ("abnormal program termination") when you try to load a save:
+
+![Install Abnormal Program Termination Error](guide_assets/install/install_abnormalProgramTermination_error.png)
+
+Then the fix is to restore the original DLLs (see [Applying the Patch](#applying-the-patch)).
+
+
+### Graphic Glitch - Dark Rendering ###
+
+If you see really dark or black 3D graphics rendering like below:
+
+![Install Graphic Glitch Dark Rendering](guide_assets/install/install_glitch_darkRendering.png)
+
+Then the fix is to restore the original DLLs (see [Applying the Patch](#applying-the-patch)).
+
+
+### Game Bug - Schwartz Storm Headquarters Stairwell Trap ###
+
+Just look at that stairwell!  Sitting their so ominously...  From the Schwartz Storm Headquarters Corridor, do not go into the door on the left and down into the stairwell early in the game.  If you go to the bottom of the stairwell, Calintz will walk backwards a bit and you will get completely stuck and have to reload.
+
+![Glitch HQ Stairwell](guide_assets/gameplay/glitch_hq_stairwell1.png)
+![Glitch HQ Stairwell Stuck](guide_assets/gameplay/glitch_hq_stairwell2.png)
+
 
